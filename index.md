@@ -11,5 +11,9 @@ title: Home
     </li>
   {% endfor %}
 </ul>
-
-
+<footer>
+  <p>
+    &copy; {{ site.time | date: "%Y" }} {{ site.owner }}. 
+    Last updated: {{ site.last_updated }}.
+  </p>
+</footer>
