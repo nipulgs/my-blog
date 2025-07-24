@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Nextcloud with Docker Install Guide"
+title:  "Nextcloud with Docker Installation Guide"
 date:   2024-06-15 12:00:00 +0530
 tags: [Nextcloud, Storage, Ubuntu]
 ---
+
+# Nextcloud with Docker Installation Guide
 
 ## Prerequisites
 
