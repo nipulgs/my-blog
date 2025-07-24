@@ -5,6 +5,8 @@ date:   2023-02-05 12:00:00 +0530
 tags: [Reboot, Ubuntu]
 ---
 
+# Auto Reboot Ubuntu Server Using Cron
+
 **Generated:** 2025-07-15 06:22:41  
 **System:** Ubuntu (root crontab)
 
