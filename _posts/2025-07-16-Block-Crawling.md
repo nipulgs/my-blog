@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Block Google (and other search engines) from crawling your Koha OPAC** safely and properly"
+title:  "Block Google (and other search engines) from crawling your Koha OPAC safely and properly"
 date:   2025-07-16 12:00:00 +0530
 tags: [Stop-crawling, Robots, Googlebot, Ubuntu, Dspace, Koha, CMS]
 ---
 
-# Block Google (and other search engines) from crawling your Koha OPAC** safely and properly
+# Block Google (and other search engines) from crawling your Koha OPAC safely and properly
 
 
 ## 📌 **Method 1: Use `robots.txt`**
