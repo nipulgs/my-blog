@@ -1,7 +1,1 @@
-title: My Tech Notes
-description: A simple Jekyll blog
-baseurl: "/my-blog"
-url: "https://nipulgs.github.io"
-markdown: kramdown
-theme: minima
 permalink: /:categories/:year/:month/:day/:title/
