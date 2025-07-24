@@ -11,6 +11,7 @@ title: Home
     </li>
   {% endfor %}
 </ul>
+<hr>
 <footer>
   <centre>
       &copy; {{ site.time | date: "%Y" }} {{ site.owner }}.
