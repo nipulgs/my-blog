@@ -5,6 +5,7 @@ date:   2025-05-15
 tags: [Dspace, Increase-Upload-Limit]
 ---
 
+# Increase the limit in dspace.cfg
 
 
 This guide explains how to increase the file upload limit for DSpace 6.3.
