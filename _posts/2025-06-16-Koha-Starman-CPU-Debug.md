@@ -5,6 +5,8 @@ date:   2025-06-16
 tags: [Koha, Koha-server-load, CPU-Debug]
 ---
 
+# Koha 24.11.x — Starman CPU Debug & Fix Checklist
+
 
 ## Purpose
 
