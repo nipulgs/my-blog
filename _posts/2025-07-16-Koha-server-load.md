@@ -5,6 +5,8 @@ date:   2025-07-16 12:00:00 +0530
 tags: [Koha, Koha-server-load, Bots, Plack-workers]
 ---
 
+# Common reasons for high Koha server load
+
 
 ### 1. **Bots hitting OPAC**
 
