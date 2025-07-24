@@ -5,6 +5,8 @@ date:   2023-07-13 12:00:00 +0530
 tags: [Fail2Ban, Security, Ubuntu]
 ---
 
+# Fail2Ban Installation, Customization & Work Process
+
 ## Introduction
 
 Fail2Ban is a log-parsing security tool that helps protect your server against brute-force attacks by banning malicious IPs dynamically.
