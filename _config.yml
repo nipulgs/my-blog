@@ -4,8 +4,3 @@ baseurl: "/my-blog"
 url: "https://nipulgs.github.io"
 permalink: /:categories/:year/:month/:day/:title/
 owner: "Nipul G Shihora"
-footer_links:
-  - title: Profile
-    url: https://nipulgs.github.io
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/nipulgs/
