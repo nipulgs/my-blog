@@ -13,8 +13,7 @@ title: Home
 </ul>
 <hr>
 <footer>
-  <centre>
+  <p>
       &copy; {{ site.time | date: "%Y" }} {{ site.owner }}.
-      Last updated: {{ site.last_updated }}.
-  </centre>
+  </p>
 </footer>
