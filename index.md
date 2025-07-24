@@ -12,10 +12,7 @@ title: Home
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
       <small>{{ post.date | date: "%b %-d, %Y" }}</small>
       {% if post.tags %}
-        <br>Tags:
-        {% for tag in post.tags %}
-          <a href="{{ '/tags/' | append: tag | relative_url }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
+        <br>
       {% endif %}
     </li>
   {% endfor %}
