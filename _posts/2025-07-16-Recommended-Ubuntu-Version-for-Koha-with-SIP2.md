@@ -5,6 +5,7 @@ date:   2025-07-16 12:00:00 +0530
 tags: [Koha, Library Software, LMS, Ubuntu]
 ---
 
+# Recommended Ubuntu Version for Koha + SIP2
 
 **For production use in 2024–2025**, the best option is:  
 **👉 Ubuntu LTS (Long-Term Support) version: `Ubuntu 22.04 LTS`**
