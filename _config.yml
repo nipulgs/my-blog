@@ -4,4 +4,4 @@ baseurl: "/my-blog"
 url: "https://nipulgs.github.io"
 permalink: /:categories/:year/:month/:day/:title/
 owner: "Nipul G Shihora"
-site.last_updated: 2025-07-24
+
