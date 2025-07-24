@@ -12,8 +12,8 @@ title: Home
   {% endfor %}
 </ul>
 <footer>
-  <p text-align: center>
+  <centre> </ceter>text-align: center
       &copy; {{ site.time | date: "%Y" }} {{ site.owner }}.
       Last updated: {{ site.last_updated }}.
-  </p>
+  </centre>
 </footer>
