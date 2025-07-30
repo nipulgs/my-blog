@@ -5,11 +5,11 @@ url: "https://nipulgs.github.io"
 permalink: /:categories/:year/:month/:day/:title/
 owner: "Nipul G Shihora"
 
-theme: minima
+# theme: minima
 
 # plugins:
-#   - jekyll-feed
+#  - jekyll-feed
 
-markdown: kramdown
+# markdown: kramdown
 
-future: false
+# future: false
