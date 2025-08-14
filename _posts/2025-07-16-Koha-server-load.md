@@ -36,7 +36,7 @@ tail -f /var/log/koha/yourinstance/opac-access.log tail -f /var/log/koha/yourins
     
 ---    
 
-### ✅ **Solutions** : Here’s what you can do **safely**:
+### **Solutions** : Here’s what you can do **safely**:
 ---
 
 ### Step 1: **Tune Plack workers**
@@ -100,7 +100,7 @@ See if `koha-run-backups`, `koha-index-daemon`, or `cronjobs` are too frequent.
 
 ----------
 
-### ✅ ✅ ✅ **Key tip**
+### **Key tip**
 
 If you **don’t need Koha’s REST API externally**, block it in Apache or firewall.
 
@@ -117,3 +117,4 @@ Or block it completely with:
 ```apache
 RedirectMatch 403 ^/api
 ```
+
