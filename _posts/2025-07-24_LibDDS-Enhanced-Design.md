@@ -112,10 +112,10 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 
 ## Final Benefits
 
-✔️ Clear user, staff, admin roles for every feature.
-✔️ Admin dashboard for full control and branding.
-✔️ Smart metadata saves effort.
-✔️ Flexible tech supports future upgrades.
-✔️ Transparent workflows with secure Gmail integration.
+- Clear user, staff, admin roles for every feature.
+- Admin dashboard for full control and branding.
+- Smart metadata saves effort.
+- Flexible tech supports future upgrades.
+- Transparent workflows with secure Gmail integration.
 
 **End of Role-Based Tech Draft**
