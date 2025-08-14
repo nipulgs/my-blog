@@ -8,7 +8,7 @@ tags: [Stop-crawling, Robots, Googlebot, Ubuntu, Dspace, Koha, CMS]
 # Block Google (and other search engines) from crawling your Koha OPAC safely and properly
 
 
-## 📌 **Method 1: Use `robots.txt`**
+## **Method 1: Use `robots.txt`**
 
 Koha’s OPAC usually runs on Apache or another web server. You can add a `robots.txt` file to the OPAC’s root directory.
 
@@ -28,7 +28,7 @@ User-agent: Googlebot
 Disallow: /
 ```
 
-###  Step 2:  **Save it** 
+### Step 2:  **Save it** 
 in your Koha OPAC root directory — typically `/usr/share/koha/opac/htdocs/` or wherever your Koha OPAC is served from.
 
 ### Step 3: Make sure it’s accessible at:
@@ -36,7 +36,7 @@ in your Koha OPAC root directory — typically `/usr/share/koha/opac/htdocs/` or
 
 ---
 
-## 📌 **Method 2: Add `X-Robots-Tag` Header**
+## **Method 2: Add `X-Robots-Tag` Header**
 
 If you want a stronger block, add this HTTP header to OPAC pages:
 
@@ -61,7 +61,7 @@ sudo systemctl reload apache2
 
 ---
 
-## 📌 **Method 3: Add `<meta>` tag in OPAC templates**
+## **Method 3: Add `<meta>` tag in OPAC templates**
 
 You can also add:
 
@@ -75,10 +75,11 @@ But the `robots.txt` + `X-Robots-Tag` header is usually enough.
 
 ---
 
-## ✅ **Remember**
+## **Remember**
 
 -   `robots.txt` is only advisory — good bots (like Google) respect it, bad bots may not.
     
 -   The `X-Robots-Tag` header is stronger because it’s in the HTTP response.
     
 -   Make sure you **don’t block your Koha staff client** — usually you only block the OPAC.
+
