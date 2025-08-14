@@ -12,7 +12,7 @@ This guide explains how to configure and manage embargo (temporary access restri
 
 ---
 
-## ✅ Step 1: Enable Embargo in Configuration
+## Step 1: Enable Embargo in Configuration
 
 Edit the main DSpace configuration file:
 
@@ -36,7 +36,7 @@ plugin.named.org.dspace.embargo.EmbargoLifter = org.dspace.embargo.DefaultEmbarg
 
 Save and close the file.
 
-## 💾 Step 2: Update Submission Form
+## Step 2: Update Submission Form
 
 To allow users to enter embargo dates during submission, edit:
 
@@ -62,7 +62,7 @@ Restart Tomcat to apply changes:
 ```bash
 sudo systemctl restart tomcat7
 ```
-## 🔐 Step 3: Submit Items with Embargo Dates
+## Step 3: Submit Items with Embargo Dates
 
 During submission:
 
@@ -70,7 +70,7 @@ During submission:
 - This sets the dc.date.available metadata field.
 - Bitstreams will be restricted from anonymous access until that date.
 
-## ⚙️ Step 4: Embargo Setter Behavior
+## Step 4: Embargo Setter Behavior
 
 When an embargo date is set:
 
@@ -78,7 +78,7 @@ When an embargo date is set:
  - DSpace sets a future READ policy that activates on the embargo lift date.
  - The embargo lifter script will update access policies when the date is reached.
 
-## ⏰ Step 5: Schedule the Embargo Lifter Script
+## Step 5: Schedule the Embargo Lifter Script
 
 You can run the embargo-lifter manually or schedule it.
 
@@ -101,7 +101,7 @@ Add this line to run daily at 2 AM:
 0 2 * * * /home/dspace/dspace/bin/dspace embargo-lifter >> /home/dspace/embargo.log 2>&1
 ```
 
-## 🤺 Step 6: Test Embargo Functionality
+## Step 6: Test Embargo Functionality
 
  1. Submit an item and set a future embargo date.
  2. Ensure anonymous users cannot access the bitstreams.
@@ -113,9 +113,10 @@ Add this line to run daily at 2 AM:
 
 4. Confirm that public access is now available.
 
-## 🛠️ Additional Notes
+## Additional Notes
 
  - Embargo affects bitstream access, not metadata visibility. 
  - To embargo metadata, custom workflows or development is needed. 
  - You can write a custom EmbargoSetter class for advanced logic.
+
 
