@@ -24,7 +24,7 @@ You have **mixed prefixes** like:
 
 ----------
 
-### ✅ Final Excel Formula (for any prefix + number → padded to 6 digits)
+### Final Excel Formula (for any prefix + number → padded to 6 digits)
 
 Use this in **cell B2**:
 
@@ -34,7 +34,7 @@ Use this in **cell B2**:
 
 ----------
 
-### 🔄 What It Does:
+### What It Does:
 
 -   Extracts the **prefix** (any number of letters).
     
@@ -47,7 +47,7 @@ Use this in **cell B2**:
 
 ----------
 
-### 📊 Example Results:
+### Example Results:
 
 |  A (Original)| B (Formatted) |
 |--|--|
@@ -60,7 +60,7 @@ Use this in **cell B2**:
 
 ----------
 
-### 📌 How to Apply
+### How to Apply
 
 1.  Paste your original data in **Column A** (starting from A2).
     
