@@ -9,7 +9,7 @@ tags: [DSpace,  Customizing Handle, Display]
 
 Customizing DSpace 6.3 JSPUI: Display Canonical Handle with Configurable Domain This guide explains how to change the citation handle URL in `display-item.jsp` so that it uses a fixed base URL (like `https://dspace.iiti.ac.in/handle/`) and makes that domain configurable via `dspace.cfg`.
 
-## 📁 Step 1: Add Property to `dspace.cfg` Open the DSpace configuration file located at:`` 
+## Step 1: Add Property to `dspace.cfg` Open the DSpace configuration file located at:`` 
 
 `[dspace]/config/dspace.cfg`
 
@@ -20,7 +20,7 @@ Add this  new property at the end of the file:
 ```
 ----------
 
-## 🖊️ Step 2: Edit `display-item.jsp`
+## Step 2: Edit `display-item.jsp`
 
 Open:
 
@@ -37,31 +37,31 @@ Find and replace the existing citation display block with the following code:
 </div>
 ```
 
->💡 Note: `ConfigurationManager` is part of the DSpace API and allows access to properties defined in `dspace.cfg`. 
+> Note: `ConfigurationManager` is part of the DSpace API and allows access to properties defined in `dspace.cfg`. 
 
 ----------
 
-## ⚙️ Step 3: Rebuild and Deploy JSPUI
+## Step 3: Rebuild and Deploy JSPUI
 
-### 🔧 Rebuild JSPUI:
+### Rebuild JSPUI:
 
 ```
 	cd [dspace-src]/dspace
 	mvn package
 ```
 
-### 📦 Redeploy JSPUI:
+### Redeploy JSPUI:
 ```
 	cp -r [dspace]/webapps/jspui [tomcat]/webapps/
 ```
 
-### 🔁 Restart Tomcat:
+### Restart Tomcat:
 
 ```bash
 	sudo systemctl restart tomcat
 ```
 
-## ✅ Result
+## Result
 
 "Please use this identifier to cite or link to this item:" section will now show:
 
