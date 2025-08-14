@@ -5,7 +5,7 @@ date:   25-07-24 12:00:00 +0530
 tags: [LibDDS Protal, CMS]
 ---
 
-## 📌 Overview
+## Overview
 
 A flexible Document Delivery Service (DDS) portal for libraries, designed to evolve:
 
@@ -17,9 +17,9 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * Customizable admin dashboard for layout, branding, and settings.
 * Technology stack designed to support upgrades and integrations.
 
-## ✅ Core Features, Technologies & Roles
+## Core Features, Technologies & Roles
 
-### 🎫 Ticketing System (Helpdesk Module)
+### Ticketing System (Helpdesk Module)
 
 **Tech:** Django, PostgreSQL, Django Channels.
 **Role:**
@@ -28,7 +28,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** View, update, resolve, attach documents.
 * **Admin:** Full access — manage all tickets, assign staff.
 
-### 📧 Gmail Integration (Mail Service)
+### Gmail Integration (Mail Service)
 
 **Tech:** Gmail API, OAuth2, Django Mailer, Celery.
 **Role:**
@@ -37,7 +37,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** Communicate with users via email.
 * **Admin:** Configure and manage mail settings.
 
-### 📚 DOI/ISBN Metadata Lookup (Metadata Resolver)
+### DOI/ISBN Metadata Lookup (Metadata Resolver)
 
 **Tech:** CrossRef, Google Books, PubMed, arXiv, Zotero, Requests.
 **Role:**
@@ -46,7 +46,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** Verify and edit metadata if needed.
 * **Admin:** Manage API keys and integration settings.
 
-### 👥 Roles & Permissions (RBAC)
+### Roles & Permissions (RBAC)
 
 **Tech:** Django Permissions, Groups.
 **Role:**
@@ -55,7 +55,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** Access allowed tickets and reports.
 * **User:** Limited to personal requests and reports.
 
-### 🏢 Institutional & Group Management (Multi-Tenancy)
+### Institutional & Group Management (Multi-Tenancy)
 
 **Tech:** Django Tenants, Verified Domains.
 **Role:**
@@ -64,7 +64,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** Create/manage user groups for collaborative requests.
 * **User:** Join groups to share or receive requests.
 
-### 🖥️ Admin Customization Dashboard (CMS Module)
+### Admin Customization Dashboard (CMS Module)
 
 **Tech:** Django Admin, Wagtail or Django Jet.
 **Role:**
@@ -72,7 +72,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Admin:** Customize portal layout, themes, header/footer, logo, branding.
 * **Staff/User:** View changes — no edit access.
 
-### 📑 Bibliographic Data Management (Metadata Store)
+### Bibliographic Data Management (Metadata Store)
 
 **Tech:** PostgreSQL, Django ORM.
 **Role:**
@@ -81,7 +81,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** Use stored metadata to fulfill requests accurately.
 * **Admin:** Access full metadata for reports and compliance.
 
-### 📊 User Reports & Logs (Reporting Engine)
+### User Reports & Logs (Reporting Engine)
 
 **Tech:** Django REST API, ChartJS, Pandas/ReportLab.
 **Role:**
@@ -90,7 +90,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** View operational stats for handled tickets.
 * **Admin:** Run detailed usage, department-wise, copyright reports.
 
-### 📎 Attachments (Secure File Storage)
+### Attachments (Secure File Storage)
 
 **Tech:** Django Storage, AWS S3 or Local Disk.
 **Role:**
@@ -99,7 +99,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Staff:** Attach and deliver documents.
 * **Admin:** Manage storage settings and permissions.
 
-## ✅ Adaptable Tech Stack
+## Adaptable Tech Stack
 
 * **Frontend:** HTML5, Bootstrap, Vue.js/React.
 * **Backend:** Python (Django 4+), Django REST Framework.
@@ -110,7 +110,7 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 * **Server:** Ubuntu, NGINX/Gunicorn.
 * **Security:** HTTPS, JWT, OAuth2, RBAC.
 
-## ✅ Final Benefits
+## Final Benefits
 
 ✔️ Clear user, staff, admin roles for every feature.
 ✔️ Admin dashboard for full control and branding.
@@ -118,4 +118,4 @@ A flexible Document Delivery Service (DDS) portal for libraries, designed to evo
 ✔️ Flexible tech supports future upgrades.
 ✔️ Transparent workflows with secure Gmail integration.
 
-**End of Role-Based Tech Draft ✅**
+**End of Role-Based Tech Draft**
