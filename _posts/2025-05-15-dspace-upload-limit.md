@@ -104,12 +104,3 @@ server {
   * Browser console for POST size errors.
 
 ---
-
-## Summary
-
-| Where?              | What to change?                              |
-| ------------------- | -------------------------------------------- |
-| `dspace.cfg`        | `upload.max` to desired bytes                |
-| Tomcat `server.xml` | `<Connector maxPostSize="0">`                |
-| Nginx/Apache        | `client_max_body_size` or `LimitRequestBody` |
-| Restart services    | Tomcat (and proxy if used)                   |
