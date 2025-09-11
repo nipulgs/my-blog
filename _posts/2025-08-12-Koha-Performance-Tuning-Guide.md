@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Koha Performance Tuning Guide"
-date:   2025-09-12 12:00:00 +0530
+date:   2025-08-12 12:00:00 +0530
 tags: [Performance Tuning, koha, Apache Prefork, Plack]
 ---
+
 
 # Koha Performance Tuning Guide
 
