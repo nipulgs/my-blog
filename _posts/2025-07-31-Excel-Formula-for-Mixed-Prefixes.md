@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Excel Formula for Mixed Prefixes"
+title:  "Excel Formula for Mixed Prefixes and Find Gaps in a Number Sequence"
 date:   2025-07-31
 tags: [Reboot, Ubuntu]
 ---
@@ -67,3 +67,12 @@ Use this in **cell B2**:
 2.  Paste the formula in **cell B2**.
     
 3.  Drag down to B5500 (or double-click the fill handle).
+   
+
+## Find Gaps in a Number Sequence
+
+This formula detects missing numbers in a sequence and lists them.
+
+```excel
+=IF(OR(A2=A1+1,A2=1),"",SEQUENCE(1,A2-A1-1,A1+1))
+
