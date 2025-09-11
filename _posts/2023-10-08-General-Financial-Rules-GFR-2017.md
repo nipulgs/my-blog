@@ -91,6 +91,7 @@ tags: [GFR-2017, Library Procurement]
 ## 6. Forms & Column Structures  
 
 ### Form GFR 18 – Accession Register (Library Books)  
+
 | Col. No. | Particulars |
 |----------|-------------|
 | 1 | Date of Accession |
@@ -112,6 +113,7 @@ tags: [GFR-2017, Library Procurement]
 ---
 
 ### Form GFR 21 – Register of Grants  
+
 | Col. No. | Particulars |
 |----------|-------------|
 | 1 | Serial Number |
@@ -130,6 +132,7 @@ tags: [GFR-2017, Library Procurement]
 ---
 
 ### Form GFR 22 – Register of Fixed Assets  
+
 | Col. No. | Particulars |
 |----------|-------------|
 | 1 | Asset Description (Name, Type, Make, Model) |
@@ -148,6 +151,7 @@ tags: [GFR-2017, Library Procurement]
 ---
 
 ### Form GFR 23 – Stock Register of Consumables  
+
 | Col. No. | Particulars |
 |----------|-------------|
 | 1 | Serial Number |
@@ -165,6 +169,7 @@ tags: [GFR-2017, Library Procurement]
 ---
 
 ### Form GFR 24 – Register of Assets of Historical/Artistic Value  
+
 | Col. No. | Particulars |
 |----------|-------------|
 | 1 | Serial Number |
