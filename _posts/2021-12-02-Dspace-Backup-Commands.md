@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Dspace Auto Backup Commands "
+date:   2021-12-02 12:00:00 +0530
+tags: [Backup, Dspace]
+---
+
 # Dspace Backup Commands 
 
 How to Setup Automatic Daily Backup of Dspace Database & Files 
