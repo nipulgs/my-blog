@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Library Procurement & Management SOP as per GFR-2017"
+date:   2023-10-08 12:00:00 +0530
+tags: [GFR-2017, Library Procurement]
+---
+
 # Library Procurement & Management SOP  
 *Based on General Financial Rules (GFR) 2017 – Ministry of Finance, Government of India*
 
