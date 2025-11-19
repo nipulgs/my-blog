@@ -43,14 +43,14 @@ Copy the below script into the file and save it:
 SHELL=/bin/bash
 
 # Setup name of local server to be backed up
-SERVER="%10.100.8.20%"
+SERVER="%your_server_local_IP%"
 
 # Setup event stamps
 DOW=`date +%a`
 TIME=`date`
 
 # Setup paths
-FOLDER="/home/backup"
+FOLDER="/home/dspace_backup"
 FILE="/var/log/backup-$DOW.log"
 
 # Do the backups
@@ -58,9 +58,11 @@ FILE="/var/log/backup-$DOW.log"
 echo "Backup started: $TIME"
 
 # Make the backup folder if it does not exist
-if test ! -d /home/backup
+if test ! -d /home/dspace_backup
 then
-  mkdir -p /home/backup
+  mkdir -p /home/dspace_backup
+  chmod 777 dspace_backup
+
   echo "New backup folder created"
 else
   echo ""
@@ -70,12 +72,16 @@ fi
 cd /
 
 ## PostgreSQL database (Needs a /root/.pgpass file)
-which -a psql
-if [ $? == 0 ] ; then 
-    echo "SQL dump of PostgreSQL databases"
-    su - postgres -c "pg_dump --inserts dspace > /tmp/dspace-db.sql"
-    cp /tmp/dspace-db.sql $FOLDER/dspace-db-$DOW.sql
+if command -v psql >/dev/null 2>&1 ; then
+    echo "SQL dump of PostgreSQL database 'dspace'"
+
+    # Dump database directly to backup folder
+    su - postgres -c "pg_dump --inserts dspace > $FOLDER/dspace-db-$DOW.sql"
+
+    # Run vacuum
     su - postgres -c "vacuumdb --analyze dspace > /dev/null 2>&1"
+else
+    echo "psql command not found — skipping PostgreSQL backup."
 fi
 
 # Backup '/dspace' folder
