@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Journal Quartiles in Academic Publishing (Q1–Q4)"
+date:   2022-12-11 12:00:00 +0530
+tags: [Backup, Dspace]
+---
+
+
 # Journal Quartiles in Academic Publishing (Q1–Q4)
 
 Journal **quartiles** are a system of ranking academic journals within their specific subject categories, based on influence and citation metrics such as **Impact Factor (JIF)** or **CiteScore**. Journals are grouped into four quartiles:
@@ -77,3 +85,4 @@ Journal **quartiles** are a system of ranking academic journals within their spe
 - Quartile positions are updated **annually** as citation metrics change. :contentReference[oaicite:13]{index=13}  
 - A journal may have **different quartiles** in different subject areas based on category-specific performance. :contentReference[oaicite:14]{index=14}  
 - Metrics like Impact Factor and CiteScore are useful but not perfect measures of individual article quality. :contentReference[oaicite:15]{index=15}
+
