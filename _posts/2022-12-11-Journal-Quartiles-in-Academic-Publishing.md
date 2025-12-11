@@ -17,7 +17,7 @@ Journal **quartiles** are a system of ranking academic journals within their spe
 
 ---
 
-## 📊 Journal Quartile Breakdown
+## Journal Quartile Breakdown
 
 ### **Q1 — First Quartile**
 - Represents the **top 25%** of journals in a discipline.  
@@ -42,7 +42,7 @@ Journal **quartiles** are a system of ranking academic journals within their spe
 
 ---
 
-## 📏 How Quartiles Are Determined
+## How Quartiles Are Determined
 
 ### **Citation Metrics Used**
 - **Journal Impact Factor (JIF):** Calculated by Clarivate, based on citations to articles published in the previous 2 years. Higher values suggest higher journal influence. :contentReference[oaicite:5]{index=5}  
@@ -59,7 +59,7 @@ Journal **quartiles** are a system of ranking academic journals within their spe
 
 ---
 
-## 📌 Why Quartiles Matter
+## Why Quartiles Matter
 
 ### **For Researchers**
 - **Publication Strategy:** Aids in choosing journals that match career goals (e.g., visibility vs. acceptance rates). :contentReference[oaicite:8]{index=8}  
@@ -70,7 +70,7 @@ Journal **quartiles** are a system of ranking academic journals within their spe
 
 ---
 
-## 🔎 How to Find a Journal’s Quartile
+## How to Find a Journal’s Quartile
 
 ### **Web of Science (Clarivate)**
 - Use **Journal Citation Reports (JCR)** or **Master Journal List** to find Impact Factor and quartile. :contentReference[oaicite:11]{index=11}
@@ -80,9 +80,10 @@ Journal **quartiles** are a system of ranking academic journals within their spe
 
 ---
 
-## 🧠 Notes & Considerations
+## Notes & Considerations
 
 - Quartile positions are updated **annually** as citation metrics change. :contentReference[oaicite:13]{index=13}  
 - A journal may have **different quartiles** in different subject areas based on category-specific performance. :contentReference[oaicite:14]{index=14}  
 - Metrics like Impact Factor and CiteScore are useful but not perfect measures of individual article quality. :contentReference[oaicite:15]{index=15}
+
 
